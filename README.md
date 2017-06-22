@@ -53,7 +53,7 @@ If you're only looking to develop themes, update the docker-compose file with:
 ```
 wordpress:
   volumes:
-    - ./src/wp-content/themes/:/var/www/html/wp-content/themes/
+    - ./src/wp-content/themes/theme_name/:/var/www/html/wp-content/themes/theme_name/
 ```
 
 ## Plugin development
@@ -61,5 +61,5 @@ If you're only looking to develop plugins, update the docker-compose file with:
 ```
 wordpress:
   volumes:
-    - ./src/wp-content/plugins/:/var/www/html/wp-content/plugins/
+    - ./src/wp-content/plugins/plugin_name/:/var/www/html/wp-content/plugins/plugin_name/
 ```
